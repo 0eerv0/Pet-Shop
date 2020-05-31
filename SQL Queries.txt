@@ -1,0 +1,10 @@
+1) SELECT * FROM `pets` WHERE sex='Male' 
+2) SELECT * FROM `pets` WHERE type='Dog' and Vaccinated='Yes'
+3) SELECT name,surname FROM client ORDER BY surname
+4) SELECT * FROM `client` LIMIT 3
+5) SELECT count(*) priceUSD FROM products
+6) SELECT SUM(priceUSD)FROM products
+7) UPDATE `staff` SET `email` = 'janieking@gmail.com' WHERE `staff`.`s_id` = 927;
+8) SELECT MIN(priceUSD) FROM products
+9) SELECT AVG(salary) FROM staff
+10) SELECT staff.s_id,staff.name,staff.surname,staff.sec_id,pets.type,pets.description from staff,pets WHERE staff.sec_id=pets.sec_id and pets.type='Frog'
